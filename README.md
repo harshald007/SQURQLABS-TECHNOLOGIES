@@ -56,8 +56,8 @@ amazon-automation/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/harshald007/amazon-automation.git
-   cd amazon-automation
+   git clone https://github.com/harshald007/SQURQLABS-TECHNOLOGIES.git
+   cd SQURQLABS-TECHNOLOGIES
    ```
 
 2. Install dependencies:
