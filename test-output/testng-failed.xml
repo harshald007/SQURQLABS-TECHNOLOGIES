@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmazonTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AmazonFunctionalTests(failed)">
+    <classes>
+      <class name="tests.tests">
+        <methods>
+          <include name="testRemoveProduct"/>
+          <include name="testUpdateQuantity"/>
+          <include name="setup"/>
+          <include name="testSearchExistingProduct"/>
+          <include name="testAddProductToCart"/>
+          <include name="teardown"/>
+          <include name="testSearchNonExistingProduct"/>
+        </methods>
+      </class> <!-- tests.tests -->
+    </classes>
+  </test> <!-- AmazonFunctionalTests(failed) -->
+</suite> <!-- Failed suite [AmazonTestSuite] -->
